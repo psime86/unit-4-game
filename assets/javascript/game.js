@@ -19,25 +19,25 @@ $(document).ready(function() {
     var totalScore = 0;
     console.log(wins,losses,totalScore);
 
-// Apend wins and losses to game
+// Apend wins, losses, and user score to game
     $("#wins").html(wins);
     $("#losses").html(losses);
     $("#user-score").html(totalScore);
 
 // Reset function
-function reset() {
-    targetNumber = Math.floor(Math.random()*102+19);
-    $("#target-number").html(targetNumber);
-    console.log(targetNumber);
-    userNumber1 = Math.floor(Math.random()*12+1);
-    userNumber2 = Math.floor(Math.random()*12+1);
-    userNumber3 = Math.floor(Math.random()*12+1);
-    userNumber4 = Math.floor(Math.random()*12+1);
-    console.log(userNumber1,userNumber2,userNumber3,userNumber4);
-    totalScore = 0;
-    $("#user-score").html(totalScore);
-    console.log(totalScore);
-}
+    function reset() {
+        targetNumber = Math.floor(Math.random()*102+19);
+        $("#target-number").html(targetNumber);
+        console.log(targetNumber);
+        userNumber1 = Math.floor(Math.random()*12+1);
+        userNumber2 = Math.floor(Math.random()*12+1);
+        userNumber3 = Math.floor(Math.random()*12+1);
+        userNumber4 = Math.floor(Math.random()*12+1);
+        console.log(userNumber1,userNumber2,userNumber3,userNumber4);
+        totalScore = 0;
+        $("#user-score").html(totalScore);
+        console.log(totalScore);
+    }
 
 // Win total function
     function victory() {
