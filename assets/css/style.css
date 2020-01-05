@@ -1,0 +1,64 @@
+body {
+    background-image: url("../images/Background1.jpg");
+}
+
+.game {
+    margin: 50px auto 50px auto;
+    max-width: 900px;
+    background: rgba(255, 240, 240, 0.514);
+    padding:15px;
+    border-radius: 10px;
+  }
+
+.title {
+    text-align: center;
+    font-size: 60px;
+    font-family: inherit;
+    font-weight: bolder;
+    color: rgb(155, 118, 39);
+}
+
+  .instructions {
+    line-height: 25px;
+    background: rgba(201, 201, 201, 0.507);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-family: fantasy;
+    color: darkslateblue;
+    padding-bottom: 15px;
+  }
+
+  .computer-number {
+      text-align: center;
+  }
+
+  .wl-tracker {
+      font-size: 20px;
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: center;
+      color: darkslateblue;
+  }
+
+  #wins {
+      color: goldenrod;
+  }
+
+  #losses {
+      color: firebrick;
+  }
+
+  .crystals {
+      text-align: center;
+      padding: 15px;
+  }
+  
+  .score {
+      text-align: center;
+  }
