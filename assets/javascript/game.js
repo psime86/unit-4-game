@@ -22,6 +22,7 @@ $(document).ready(function() {
 // Apend wins and losses to game
     $("#wins").html(wins);
     $("#losses").html(losses);
+    $("#user-score").html(totalScore);
 
 // Reset function
 function reset() {
@@ -34,7 +35,7 @@ function reset() {
     userNumber4 = Math.floor(Math.random()*12+1);
     console.log(userNumber1,userNumber2,userNumber3,userNumber4);
     totalScore = 0;
-    $("#target-number").html(totalScore);
+    $("#user-score").html(totalScore);
     console.log(totalScore);
 }
 
